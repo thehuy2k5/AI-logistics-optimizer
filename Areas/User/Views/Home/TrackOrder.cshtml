@@ -1,0 +1,29 @@
+@{
+    ViewData["Title"] = "Theo dõi đơn";
+    Layout = "~/Areas/User/Views/Shared/_UserLayout.cshtml";
+}
+
+<div class="tracking-page">
+    <h1>Theo dõi đơn hàng</h1>
+    <p>Nhập mã đơn để xem trạng thái giao hàng.</p>
+
+    <div class="tracking-search">
+        <input placeholder="Nhập mã đơn hàng, ví dụ ORD001" />
+        <button>Theo dõi</button>
+    </div>
+
+    <div class="tracking-card">
+        <h3>ORD001</h3>
+        <p>Trạng thái: <strong>Đang giao</strong></p>
+        <p>Shipper: Nguyễn Shipper</p>
+        <p>Dự kiến giao: 30 phút</p>
+
+        <div class="timeline">
+            <span>Chờ phân công</span>
+            <span>Đã gán shipper</span>
+            <span>Đang lấy hàng</span>
+            <span>Đang giao</span>
+            <span>Hoàn thành</span>
+        </div>
+    </div>
+</div>

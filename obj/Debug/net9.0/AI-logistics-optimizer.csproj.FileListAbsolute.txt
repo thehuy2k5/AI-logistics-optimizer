@@ -21,7 +21,6 @@ D:\AI-logistics-optimizer\AI-logistics-optimizer\obj\Debug\net9.0\rjsmcshtml.dsw
 D:\AI-logistics-optimizer\AI-logistics-optimizer\obj\Debug\net9.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
 D:\AI-logistics-optimizer\AI-logistics-optimizer\obj\Debug\net9.0\scopedcss\bundle\AI-logistics-optimizer.styles.css
 D:\AI-logistics-optimizer\AI-logistics-optimizer\obj\Debug\net9.0\scopedcss\projectbundle\AI-logistics-optimizer.bundle.scp.css
-D:\AI-logistics-optimizer\AI-logistics-optimizer\obj\Debug\net9.0\compressed\dpjvcj1log-b9sayid5wm.gz
 D:\AI-logistics-optimizer\AI-logistics-optimizer\obj\Debug\net9.0\compressed\7rhryz93e6-61n19gt1b8.gz
 D:\AI-logistics-optimizer\AI-logistics-optimizer\obj\Debug\net9.0\compressed\aot4blfket-xtxxf3hu2r.gz
 D:\AI-logistics-optimizer\AI-logistics-optimizer\obj\Debug\net9.0\compressed\gcqz7m69i3-bqjiyaj88i.gz
@@ -94,3 +93,5 @@ D:\AI-logistics-optimizer\AI-logistics-optimizer\obj\Debug\net9.0\refint\AI-logi
 D:\AI-logistics-optimizer\AI-logistics-optimizer\obj\Debug\net9.0\AI-logistics-optimizer.pdb
 D:\AI-logistics-optimizer\AI-logistics-optimizer\obj\Debug\net9.0\AI-logistics-optimizer.genruntimeconfig.cache
 D:\AI-logistics-optimizer\AI-logistics-optimizer\obj\Debug\net9.0\ref\AI-logistics-optimizer.dll
+D:\AI-logistics-optimizer\AI-logistics-optimizer\obj\Debug\net9.0\AI-logistics-optimizer.sourcelink.json
+D:\AI-logistics-optimizer\AI-logistics-optimizer\obj\Debug\net9.0\compressed\dpjvcj1log-ligy0zlkas.gz

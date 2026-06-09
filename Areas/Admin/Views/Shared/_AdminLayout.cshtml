@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="utf-8" />
+    <title>@ViewData["Title"] - AI Logistics Admin</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="~/css/site.css" />
+</head>
+
+<body>
+    <div class="admin-layout">
+
+        <aside class="admin-sidebar">
+            <div class="logo-box">
+                <h2>AI Logistics</h2>
+                <p>Optimizer</p>
+            </div>
+
+            <nav class="admin-menu">
+                <a href="/Admin/Dashboard" class="active">Dashboard</a>
+                <a href="/Admin/Orders">Orders Management</a>
+                <a href="/Admin/Shippers">Shippers Management</a>
+                <a href="/Admin/Dispatch">Auto Assign / Map</a>
+            </nav>
+        </aside>
+
+        <main class="admin-main">
+            @RenderBody()
+        </main>
+
+    </div>
+
+    @RenderSection("Scripts", required: false)
+</body>
+</html>

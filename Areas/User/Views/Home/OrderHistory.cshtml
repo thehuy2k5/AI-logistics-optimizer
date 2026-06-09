@@ -1,0 +1,32 @@
+@{
+    ViewData["Title"] = "Lịch sử đơn";
+    Layout = "~/Areas/User/Views/Shared/_UserLayout.cshtml";
+}
+
+<div class="history-page">
+    <h1>Lịch sử đơn hàng</h1>
+
+    <div class="table-card">
+        <table>
+            <thead>
+                <tr>
+                    <th>Mã đơn</th>
+                    <th>Người nhận</th>
+                    <th>Địa chỉ giao</th>
+                    <th>Trạng thái</th>
+                    <th>Ngày tạo</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>ORD001</td>
+                    <td>Trần Thị B</td>
+                    <td>Đống Đa</td>
+                    <td><span class="badge shipping">Đang giao</span></td>
+                    <td>09/06/2026</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="utf-8" />
+    <title>@ViewData["Title"] - AI Logistics</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="~/css/site.css" />
+</head>
+
+<body>
+    <header class="user-header">
+        <div class="user-logo">AI Logistics</div>
+
+        <nav class="user-nav">
+            <a href="/User/Home">Trang chủ</a>
+            <a href="/User/Home/CreateOrder">Tạo đơn</a>
+            <a href="/User/Home/TrackOrder">Theo dõi đơn</a>
+            <a href="/User/Home/OrderHistory">Lịch sử</a>
+        </nav>
+    </header>
+
+    <main class="user-main">
+        @RenderBody()
+    </main>
+
+    <footer class="user-footer">
+        <p>© 2026 AI Logistics Optimizer</p>
+    </footer>
+
+    @RenderSection("Scripts", required: false)
+</body>
+</html>

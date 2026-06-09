@@ -1,0 +1,37 @@
+@{
+    ViewData["Title"] = "Tạo đơn";
+    Layout = "~/Areas/User/Views/Shared/_UserLayout.cshtml";
+}
+
+<div class="form-page">
+    <h1>Tạo đơn giao hàng</h1>
+    <p>Nhập thông tin người gửi, người nhận và hàng hóa.</p>
+
+    <form class="order-form">
+        <div class="form-grid">
+            <div class="form-card">
+                <h3>Thông tin người gửi</h3>
+                <input placeholder="Họ tên người gửi" />
+                <input placeholder="Số điện thoại người gửi" />
+                <input placeholder="Địa chỉ lấy hàng" />
+            </div>
+
+            <div class="form-card">
+                <h3>Thông tin người nhận</h3>
+                <input placeholder="Họ tên người nhận" />
+                <input placeholder="Số điện thoại người nhận" />
+                <input placeholder="Địa chỉ giao hàng" />
+            </div>
+        </div>
+
+        <div class="form-card">
+            <h3>Thông tin hàng hóa</h3>
+            <input placeholder="Loại hàng" />
+            <input placeholder="Khối lượng" />
+            <input placeholder="Thời gian mong muốn giao" />
+            <textarea placeholder="Ghi chú"></textarea>
+        </div>
+
+        <button type="button">Tạo đơn</button>
+    </form>
+</div>

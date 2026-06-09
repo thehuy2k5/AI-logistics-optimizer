@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AI-logistics-optimizer")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7fa26886eb3a847ffba3b065aa53bfdb3c64870a")]
 [assembly: System.Reflection.AssemblyProductAttribute("AI-logistics-optimizer")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AI-logistics-optimizer")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,0 +1,97 @@
+@{
+    ViewData["Title"] = "Admin Dashboard";
+    Layout = "~/Areas/Admin/Views/Shared/_AdminLayout.cshtml";
+}
+
+<div class="admin-header">
+    <div>
+        <h1>Dashboard</h1>
+        <p>Quản lý đơn hàng, shipper và phân phối đơn thông minh</p>
+    </div>
+
+    <div class="admin-user">
+        <span>Admin</span>
+        <div class="avatar">A</div>
+    </div>
+</div>
+
+<section class="stats-grid">
+    <div class="stat-card">
+        <p>Tổng đơn hàng</p>
+        <h2>120</h2>
+        <span>Tất cả đơn trong hệ thống</span>
+    </div>
+
+    <div class="stat-card">
+        <p>Đơn đang giao</p>
+        <h2>35</h2>
+        <span>Đơn đang được xử lý</span>
+    </div>
+
+    <div class="stat-card">
+        <p>Shipper rảnh</p>
+        <h2>12</h2>
+        <span>Có thể nhận đơn mới</span>
+    </div>
+
+    <div class="stat-card">
+        <p>Tỷ lệ hoàn thành</p>
+        <h2>86%</h2>
+        <span>Hiệu suất giao hàng</span>
+    </div>
+</section>
+
+<section class="content-grid">
+    <div class="table-card">
+        <div class="section-title">
+            <h3>Đơn hàng gần đây</h3>
+            <button>+ Thêm đơn</button>
+        </div>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Mã đơn</th>
+                    <th>Khách hàng</th>
+                    <th>Điểm lấy</th>
+                    <th>Điểm giao</th>
+                    <th>Shipper</th>
+                    <th>Trạng thái</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>ORD001</td>
+                    <td>Nguyễn Văn A</td>
+                    <td>Cầu Giấy</td>
+                    <td>Đống Đa</td>
+                    <td>Chưa gán</td>
+                    <td><span class="badge pending">Chờ phân công</span></td>
+                </tr>
+
+                <tr>
+                    <td>ORD002</td>
+                    <td>Trần Thị B</td>
+                    <td>Hoàn Kiếm</td>
+                    <td>Hai Bà Trưng</td>
+                    <td>Nguyễn Shipper</td>
+                    <td><span class="badge shipping">Đang giao</span></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div class="map-card">
+        <h3>Bản đồ phân phối</h3>
+
+        <div class="map-placeholder">
+            <div>
+                <h4>Map / Route Optimization</h4>
+                <p>Khu vực hiển thị bản đồ và tuyến giao hàng</p>
+            </div>
+        </div>
+
+        <button class="assign-btn">Tự động chia đơn</button>
+    </div>
+</section>
